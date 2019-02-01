@@ -1,0 +1,6 @@
+total 8
+-rw-r--r-- 1 root root 203 Nov 30 16:14 comandos
+-rw-r--r-- 1 root root 154 Nov 30 16:14 completa
+-rw-r--r-- 1 root root   0 Nov 30 16:16 parcial
+-rw-r--r-- 1 root root   0 Nov 30 16:15 test
+-rw-r--r-- 1 root root   0 Nov 30 16:16 test.txt

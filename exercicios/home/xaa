@@ -1,0 +1,604 @@
+clear
+man xargs
+mkdir teste
+cd teste/
+cat /etc/passwd
+cat /etc/passwd | cut -d: -f1
+cat /etc/passwd | cut -d: -f1 -n2
+man cut
+cat /etc/passwd | cut -d: -f1 -b2
+man cut
+cat /etc/passwd | cut -d: -f1 2
+cat /etc/passwd | cut -d: -f1 -2
+cat /etc/passwd | cut -d: -f1 2-
+cat /etc/passwd | cut -d: -f1 N-2
+cat /etc/passwd | cut -d: -f1 N2
+cat /etc/passwd | cut -d: -f1 2N
+man sed
+cat /etc/passwd | cut -d: -f1 | sed -n '1p'
+cat /etc/passwd | cut -d: -f1 | sed -n '10p'
+info sed
+cat /etc/passwd | cut -d: -f1 | sed -f 10q
+info sed
+cat /etc/passwd | cut -d: -f1 | sed -f 10q
+#!/usr/bin/sed -f
+cat /etc/passwd | cut -d: -f1 | sed -f 10q
+cat /etc/passwd | cut -d: -f1 
+cat /etc/passwd | cut -d: -f1 | xargs mkdir
+ls -l
+find / -name *.so | xargs ls -l 
+find / -name *.so | xargs ls -l q
+clear
+cat parci
+cd ..
+cat parcial 
+ll
+cat erro 
+SIGINIT
+SIGHUP
+clear
+ps
+ps -a
+ps -au
+ps aux
+pstree
+clear
+pstree -ap
+uptime
+pgrep
+pgrep -u
+pgrep -u apache
+pgrep -u robertoclopes
+signasl
+signals
+man pgrep
+man pkill
+exit
+clear
+apt-search
+apt search sky
+apt-get install sky
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 9454C19A66B920C83DDF696E07C8CCAFCE49F8C5
+history | grep -i sku
+history | grep -i sky
+exit
+sudo add-apt-repository ppa:leaeasy/dde
+nano /etc/apt/apt.conf
+nano /etc/apt/apt.conf.d/
+cd /etc/apt/apt.conf.d/
+ls
+cd ..
+find . apt.conf
+nano source.list
+nano sources.list
+clear
+ls -l
+ll
+cd apt.conf.d/
+ll
+nano 95proxies
+apt-get update
+sudo add-apt-repository ppa:leaeasy/dde
+exit
+sudo sed -i '/https\?:\/\/.*\btel.red\b/d' /etc/apt/sources.list
+sudo apt-get install apt-transport-https ca-certificates
+sudo sh -c 'echo deb https://tel.red/repos/debian wheezy non-free > /etc/apt/sources.list.d/telred.list'
+sudo apt-key adv     --keyserver hkp://keyserver.ubuntu.com:80     --recv-keys 9454C19A66B920C83DDF696E07C8CCAFCE49F8C5
+cd /etc
+ll
+cat hosts
+nano hosts
+souce hosts
+source hosts
+nano hosts
+clear
+ifconfig
+ll
+cd profile
+nano profile
+cd profile.d/
+ls
+ll
+nano proxy.sh 
+souce proxy.sh 
+source proxy.sh 
+ll
+nano proxy.sh 
+cp proxy.sh proxylatam.sh
+ll
+file proxylatam.sh 
+file proxy.sh 
+nano proxy.sh 
+cd ../environment 
+cat ../environment 
+nano ../environment 
+cd ../profile.d/
+ls
+ll
+nano proxy.sh 
+source proxy
+source proxy.sh 
+clear
+export proxy.sh 
+exit
+pwd
+cd /etc
+ll
+cd hors
+cd host
+cd hosts
+cat hosts 
+nano host
+nano hosts
+source hosts
+nano hosts
+source hosts
+cd /home/robertoclopes/Downloads/
+ls
+dpkg -i sky_2.1.7300-1ubuntu+cosmic_amd64.deb 
+apt
+apt purge sky
+dpkg -i sky_2.1.7300-1ubuntu+cosmic_amd64.deb 
+apt get install libavcodec58
+apt-get install libavcodec58
+apt-get install libavformat58
+dpkg -i sky_2.1.7300-1ubuntu+cosmic_amd64.deb 
+clear
+sudo gdebi sky_2.1.7300-1ubuntu+cosmic_amd64.deb 
+sudo apt-get -f install sky
+apt-get install ffmpeg2.8
+apt-get install ffmpeg
+apt-get install -f ffmpeg
+sudo apt-get -y install build-essential autoconf automake cmake libtool git checkinstall
+apt --fix-broken install sky
+apt --fix-broken install 
+sudo apt-get -f install
+sudo gdebi sky_2.1.7300-1ubuntu+cosmic_amd64.deb 
+lscpu
+nano /etc/apt/sources.list
+source /etc/apt/sources.list
+export /etc/apt/sources.list
+rpm [Sisyphus] http://ftp.altlinux.org/pub/distributions/ALTLinux/Sisyphus x86_64 classic
+apt-get update
+nano /etc/apt/sources.list
+sudo gdebi sky_2.1.7300-1ubuntu+cosmic_amd64.deb 
+ls -lart
+mkdir ffmpeg
+mv ffmpeg-4.1.tar.bz2 ffmpeg/
+cd ffmpeg/
+ls
+tar -jxvf ffmpeg-4.1.tar.bz2 
+ll
+cd ffmpeg-4.1
+ls
+ll
+./configure 
+./configure --disable-x86asm
+make
+make clean
+make install
+sudo gdebi sky_2.1.7300-1ubuntu+cosmic_amd64.deb 
+cd ..
+sudo gdebi sky_2.1.7300-1ubuntu+cosmic_amd64.deb 
+ffmpeg
+exit
+sudo add-apt-repository ppa:leaeasy/dde
+sudo apt-get install software-properties-common
+sudo apt install dde dde-file-manager
+sudo apt install deepin-gtk-theme
+sudo add-apt-repository ppa:leaeasy/dde 
+
+sudo apt install deepin-gtk-theme
+sudo add-apt-repository ppa:kubuntu-ppa/backports
+export http_proxy=http://10.130.214.242:3128
+sudo add-apt-repository ppa:kubuntu-ppa/backports
+apt-get update
+ps -a
+ps -aux
+pstree
+free
+kill
+pgrep
+pgrep -u robertoclopes
+pgrep
+clear
+ls
+cd Desktop/
+ls
+cd RobertoJr/
+ls
+cd cursos/
+ls
+cd certificacaoLinux/
+ls
+ll
+vi
+ps aux | grep vi
+kill -9 4574
+kill -9 4577
+clear
+fg
+vi
+fg
+jobs
+vimdiff
+jobs
+fg 2
+fg 1
+jobs
+clear
+bg 2
+touch script.sh
+nano script.sh 
+chmod +x
+chmod +x script.sh 
+./script.sh 
+nano script.sh 
+./script.sh 
+pstree
+make clean
+clear
+pstree
+top
+clear
+history
+history | less
+eixt
+exit
+cd ..
+cd k
+ll
+cd DesecSecurity/
+ls
+cd kalicurso/
+ll
+git status
+pstree
+history
+fg
+jobs
+vi
+jobs
+bg 1
+jobs
+fg 1
+clear
+jobs
+./script.sh 
+clear
+apt-get install screen
+screen
+vi
+screen -r
+apt-get update
+clear
+wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+apt-get update
+nano /etc/apt/sources.list
+sudo software-properties-gtk
+nano /etc/apt/sources.list
+apt-get update
+nano /etc/apt/sources.list
+sudo apt-get update
+sudo mintupdate-cli upgrade -r -l123
+clear
+sudo apt update
+sudo apt install kubuntu-desktop kde-plasma-desktop kscreen
+sudo add-apt-repository ppa:kubuntu-ppa/backports
+sudo apt-get update && sudo apt-get dist-upgrade
+sudo apt-get install kubuntu-desktop
+sudo tasksel install kde-desktop
+apt-get install tasksel
+sudo tasksel install kde-desktop
+sudo apt-get install dde
+sudo add-apt-repository ppa:leaeasy/dde 
+export https_proxy=http://10.130.214.242:3128
+clear
+
+clear
+nano /etc/apt/sources.list
+clear
+cd Downloads/
+cls
+clear
+sudo gdebi sky_2.1.7300-1ubuntu+cosmic_amd64.deb 
+exit
+fdisk -l
+fdisk -l | grep Disk | grep -v map | grep -v ident
+fdisk
+fdisk -l
+fdisk -vl
+cd Downloads/
+ls
+chmod 777 03\ -\ Termo\ de\ Confidencialidade.docx 
+clear
+exit
+sudo apt-get install sky
+sudo apt-key adv     --keyserver hkp://keyserver.ubuntu.com:80     --recv-keys 9454C19A66B920C83DDF696E07C8CCAFCE49F8C5
+nano /etc/apt/sources.list
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 9454C19A66B920C83DDF696E07C8CCAFCE49F8C5
+ps -efy
+ps -ely
+exit
+clear
+nice
+renice
+who
+ps -ely
+ps
+ps -e
+ps -a
+ps -el
+ps -ey
+ps -ely
+renice +10 16052
+ps -ely | grep script
+ps -ely | grep bash
+cd Desktop/
+ls
+cd RobertoJr/
+ls
+cd cursos/
+ls
+cd certificacaoLinux/
+ls
+ll
+file script.sh 
+top
+egrep
+pgrep
+fgrep
+fgrep -h
+fgrep --h
+cat /etc/passwd
+cat /etc/passwd | grep "bash$"
+cat /etc/passwd | grep "$bash"
+cat /etc/passwd | grep "bash"
+cat /etc/passwd | grep "nologin$"
+cat /etc/passwd | grep "$sshd"
+cat /etc/passwd | grep "$robertoclope"
+cat /etc/passwd | grep "$robertoclopes"
+cat /etc/passwd | grep "^robertoclopes"
+grep "umask" /etc/* 2>
+grep "umask" /etc/*
+grep "umask" /etc/* 2>/dev/null
+head messages
+ll
+cd filtros/
+ll
+head messages 
+egrep "[0-9]{3}\."
+egrep "[0-9]{3}\.[0-9]{3}\.[0-9]{3}\" messages
+egrep "[0-9]{3}\.[0-9]{3}\.[0-9]{3}" messages
+cat feijoada.txt 
+egrep "[1L]?"
+egrep "[1L]?" feijoada.txt 
+egrep "[lL]?" feijoada.txt 
+egrep "[lL]" feijoada.txt 
+egrep "[lL]?" feijoada.txt 
+egrep "[lL]?" feijoada.txt  
+egrep "[lL]+" feijoada.txt  
+egrep "[lL]" feijoada.txt  
+egrep "^[lL]" feijoada.txt  
+cat starwars.txt 
+egrep "(Vader|walker)" starwars.txt 
+nano busca
+fgrep /etc/passwd -f busca 
+nano busca 
+cron
+info 891
+-p 891
+ps -p somente exibe e monitora processos que têm um ID de processo especificado (pid).
+ps -p 891
+ps 
+ps -ely
+clear
+exit
+jobs
+cd Desktop/
+ls
+cd RobertoJr/
+ls
+cd git/
+ls
+git status
+git remote add
+git
+git remote add origin https://github.com/robertoclopes/dlibpython.git
+git remote add origin https://github.com/robertoclopes/pythondlib.git
+git remote add origin https://github.com/robertoclopes/dlibpython.git
+git init
+git
+ll
+git remote add origin https://github.com/robertoclopes/dlibpython.git
+git status
+git remote
+git remote -v
+git push origin master
+git pull origin master
+git config --global http.proxy http://rclopes:@indra190819.@10.130.214.242:3128
+git pull origin master
+ll
+man mv
+mv -t dlib/ *
+mv -t dlib/ Curso-Dlib.pdf .git .idea/ pythonlib
+shopt -s extglob
+mv !(dlib) dlib
+mv -f * dlib
+clear
+mv -t dlib/ *
+mv -t dlib/ !(dlib)
+ll
+cd dlib/
+l
+ll
+git
+ll
+cd ..
+ll
+mv dlib dlibpython
+ll
+cd dlibpython/
+mv Curso-Dlib.pdf ../
+cd ..
+ls
+ll
+cd dlibpython/
+ll
+cd delirium/
+ls
+delirium1.jpg
+cat delirium1.jpg 
+ll
+cd ..
+ll
+cat teste.py 
+python
+sudo apt-get install --assume-yes build-essential cmake git
+nano /etc/apt/sources.list
+sudo apt-get install --assume-yes build-essential cmake git
+cd ..
+chmod 777 dlibpython/
+cd dlibpython/
+chmod 777 *
+cd ..
+ll
+sudo apt-get install --assume-yes pkg-config unzip ffmpeg qtbase5-dev python-dev python3-dev python-numpy python3-numpy
+sudo apt-get install --assume-yes libopencv-dev libgtk-3-dev libdc1394-22 libdc1394-22-dev libjpeg-dev libpng12-dev libtiff5-dev libjasper-dev
+sudo apt-get install --assume-yes libavcodec-dev libavformat-dev libswscale-dev libxine2-dev libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev
+sudo apt-get install --assume-yes libv4l-dev libtbb-dev libfaac-dev libmp3lame-dev libopencore-amrnb-dev libopencore-amrwb-dev libtheora-dev
+sudo apt-get install --assume-yes libvorbis-dev libxvidcore-dev v4l-utils vtk6
+wget -O opencv.zip 
+wget -O opencv.zip https://github.com/opencv/opencv/archive/3.3.0.zip
+nano /etc/wgetrc 
+wget -O opencv.zip https://github.com/opencv/opencv/archive/3.3.0.zip
+nano /etc/wgetrc 
+wget -O opencv.zip https://github.com/opencv/opencv/archive/3.3.0.zip
+ll
+mv opencv.zip ../
+cd ../
+ll
+mv opencv.zip ../
+cd ..
+ll
+unzip opencv.zip 
+cd opencv
+cd opencv-3.3.0/
+ll
+mkdir build
+cd build/
+cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D FORCE_VTK=ON -D WITH_TBB=ON -D WITH_V4L=ON -D WITH_QT=ON -D WITH_OPENGL=ON -D WITH_CUBLAS=ON -D CUDA_NVCC_FLAGS="-D_FORCE_INLINES" -D WITH_GDAL=ON -D WITH_XINE=ON -D BUILD_EXAMPLES=ON ..
+make -j $(($(nproc) + 1))
+sudo make install
+clear
+nano /etc/apt/sources.list
+find / hosts
+nano /etc/hots
+nano /etc/hosts
+apt-get update
+clear
+clear
+cd Desktop/
+ll
+cd RobertoJr/
+ls
+cd cursos/
+ls
+cd certificacaoLinux/
+ls
+cat arquivo.txt 
+ll
+cd filtros/
+ls
+ll
+egrep "^[^lL]" feijoada.txt
+egrep "[^lL]" feijoada.txt
+egrep "^[lL]" feijoada.txt
+echo Lagosta >> feijoada.txt 
+cat feijoada.txt
+egrep "^[lL]" feijoada.txt
+egrep "[lL]" feijoada.txt
+egrep "[^lL]" feijoada.txt
+egrep "[^lL]" feijoada.txt > test123
+cat test123 
+egrep "[lL]?" feijoada.txt
+clear
+ll
+cd teste
+ls
+ll
+cd ..
+ll
+ls -l /usr/bin/vi*
+ls -lh /usr/bin/vi*
+cd ..
+ll
+vi script.sh 
+vim script.sh 
+ls -lh
+cd filtros/
+ls
+ls -l
+grep -i "*gz*"
+grep -i "*gz*" .
+egrep -i "*gz*" .
+fgrep -i "*gz*" .
+find -i "*gz*" .
+find "*gz*" .
+vim -g
+vi -g
+vi
+vi texto
+ls -l
+cat messages 
+vi messages 
+vi
+vi messages 
+clear
+vi messages 
+ls -l | grep wc -l
+ls
+ls -l | wc -l
+ls -l | wc
+rm -rf /usr/bin/meuscript.sh 
+clear
+which is
+whichis
+which ls
+which man
+cd robertoclopes/
+ls
+cd Desktop/
+ls
+nano meuscript
+nano meuscript.sh
+chmod +x meuscript.sh 
+PATH=$PATH:.
+echo $PATH
+export PATH
+echo $PATH
+meuscript.sh 
+cd ^
+cd ~
+meuscript
+./meuscript
+meuscript
+echo $TERM
+echo $USER
+echo $SHELL
+echo $HISTSIZE
+echo $PWD
+\w
+\s
+\u
+\meusript
+\meuscript
+set
+set | more
+echo $printenv
+echo $ printenv
+clear
+pwd
+sudo apt-get update spotify
+apt-search spotify
+sudo apt-get update spotify

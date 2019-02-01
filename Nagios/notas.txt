@@ -1,0 +1,5 @@
+Certificacao Linux
+	-	Nagios (Sistema de Monitoria de Infraestrutura de TI)
+		-	Monitora máquinas Windows e Linux, serviços TCP MySql, SqlServer, Impressoras;
+		-	Notifica quando algum serviço para de funcionar ou atinge um estado crítico;
+		-	Notificações por Email;
